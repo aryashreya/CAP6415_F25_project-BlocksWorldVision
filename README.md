@@ -1,7 +1,4 @@
-# CAP6415_F25_project-BlocksWorldVision
-
-## Project Title
-**A Simple Vision System for the Blocks World**
+# A Simple Vision System for the Blocks World
 
 ---
 
