@@ -1,6 +1,0 @@
-Week 1:
-- Created GitHub repository and initialized structure.
-- Read about “Blocks World” vision system (Chapter 2 of textbook).
-- Installed Python and libraries (OpenCV, NumPy, Matplotlib).
-- Planned project workflow: image input → object detection → relationship analysis.
-- Drafted README outline.
