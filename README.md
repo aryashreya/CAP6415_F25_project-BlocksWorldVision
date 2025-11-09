@@ -3,7 +3,7 @@
 ---
 
 ## Abstract
-This project implements a simplified version of the *Blocks World* vision system, as described in **Chapter 2** of the CAP6415 textbook.
+This project implements a simplified version of the *Blocks World* vision system, as described in **Chapter 2** of the textbook.
 
 The goal is to build a basic computer vision pipeline that can analyze a scene containing simple geometric blocks and describe their spatial relationships (e.g., *“Red cube on Blue cube”*).
 
