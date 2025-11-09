@@ -27,7 +27,7 @@ Implementation will be done in **Python**, using **OpenCV** for image processing
 ---
 
 ## References
-- Chapter 2: *A Simple Vision System for the Blocks World- textbook  
+- Chapter 2: *A Simple Vision System for the Blocks World - textbook  
 - OpenCV Documentation: [https://docs.opencv.org](https://docs.opencv.org)  
 - NumPy Documentation: [https://numpy.org/doc/](https://numpy.org/doc/)  
 
