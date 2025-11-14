@@ -1,0 +1,9 @@
+## Week 2 Work Log
+
+- Conducted a detailed review of the Blocks World problem and its computer-vision requirements.  
+- Studied object detection techniques using OpenCV (thresholding, contour detection, edge detection).  
+- Collected and organized sample block images for experimentation.  
+- Implemented initial preprocessing steps: grayscale conversion, noise removal, and binary thresholding.  
+- Tested basic shape detection methods to identify square/rectangular blocks.  
+- Updated project plan to include relationship extraction (on-top-of, next-to) after detection.  
+- Documented experiments and observations for further refinement.
