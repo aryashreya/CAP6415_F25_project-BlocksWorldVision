@@ -1,5 +1,4 @@
-Week 2 Work Log
-
+Week 2:
 - Conducted a detailed review of the Blocks World problem and its computer-vision requirements.  
 - Studied object detection techniques using OpenCV (thresholding, contour detection, edge detection).  
 - Collected and organized sample block images for experimentation.  
