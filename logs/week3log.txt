@@ -1,0 +1,12 @@
+# Week 3
+
+- Implemented full block detection and feature extraction pipeline using OpenCV.  
+- Applied advanced thresholding with Gaussian blur and Otsu’s method for clean binary images.  
+- Added morphological operations (open + close) to remove noise and fill small gaps in blocks.  
+- Developed region labeling using 8-connectivity DFS to identify individual blocks.  
+- Extracted region features: area, perimeter, centroid (X, Y), bounding box, aspect ratio, compactness.  
+- Created a simple symbol classification based on compactness and aspect ratio (Square, Rectangle, Circle, Block).  
+- Built training dataset from first 6 images by storing features of each block.  
+- Implemented prediction for test images using similarity matching against training features.  
+- Adjusted weights for area, compactness, and aspect ratio to improve prediction accuracy.  
+- Refined the pipeline to prevent merging of close blocks and improve multiple-block detection.  
