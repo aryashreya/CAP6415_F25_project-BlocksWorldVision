@@ -1,6 +1,6 @@
-# Week 4 – Preliminary Results & Log
+Week 4:
 
-## Training Phase Summary:
+Training Phase Summary:
 Processed images 1–6 and extracted region features:
 
 - Circles detected: image1, image2, image4, image6 (both regions)
@@ -10,9 +10,9 @@ Processed images 1–6 and extracted region features:
   - Aspect Ratio: 0.32 → 8.00
   - Compactness: 26.88 → 158.44
 
-Total training regions: **7**
+Total training regions: 7
 
-## Testing Phase Summary:
+Testing Phase Summary:
 All test images (7–10) were successfully analyzed.
 
 | Image | Predicted Symbol | Area | Compactness |
