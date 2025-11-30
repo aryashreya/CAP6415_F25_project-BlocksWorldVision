@@ -1,4 +1,4 @@
-Week 3
+Week 3:
 
 - Implemented full block detection and feature extraction pipeline using OpenCV.  
 - Applied advanced thresholding with Gaussian blur and Otsu’s method for clean binary images.  
