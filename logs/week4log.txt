@@ -1,25 +1,24 @@
 Week 4:
 
 Training Phase Summary:
-Processed images 1–6 and extracted region features:
+Processed images 1–6 and extracted region features.
 
-- Circles detected: image1, image2, image4, image6 (both regions)
-- Blocks detected: image3, image5
-- Feature ranges observed:
-  - Area: 301 → 117,052
-  - Aspect Ratio: 0.32 → 8.00
-  - Compactness: 26.88 → 158.44
+Circles detected in: image1, image2, image4, image6 (both regions)
+Blocks detected in: image3, image5
+
+Feature ranges observed:
+Area: 301 to 117052
+Aspect Ratio: 0.32 to 8.00
+Compactness: 26.88 to 158.44
 
 Total training regions: 7
 
 Testing Phase Summary:
 All test images (7–10) were successfully analyzed.
 
-| Image | Predicted Symbol | Area | Compactness |
-|-------|------------------|-------|-------------|
-| image7 | Circle | 23,445 | 71.42 |
-| image8 | Circle | 69,934 | 172.77 |
-| image9 | Circle | 8,904 | 78.49 |
-| image10 | Circle | 43,456 | 66.97 |
+Image 7: Predicted Symbol = Circle, Area = 23445, Compactness = 71.42
+Image 8: Predicted Symbol = Circle, Area = 69934, Compactness = 172.77
+Image 9: Predicted Symbol = Circle, Area = 8904, Compactness = 78.49
+Image 10: Predicted Symbol = Circle, Area = 43456, Compactness = 66.97
 
-All test objects were classified as 'Circle' due to compactness dominating the similarity scoring.
+All test objects were classified as Circle due to compactness dominating the similarity scoring.
