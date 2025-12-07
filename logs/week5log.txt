@@ -1,0 +1,8 @@
+Week 5:
+
+Summary:
+Completion of the entire Blocks World project workflow.
+Final review of all preprocessing steps, feature extraction outputs, and classification results.
+Consolidation of region-based features (area, aspect ratio, compactness) into the final dataset.
+Refinement of documentation, including methodology, observations, and final results.
+Preparation of final deliverables: logs, summaries, feature tables, and conclusion notes.
