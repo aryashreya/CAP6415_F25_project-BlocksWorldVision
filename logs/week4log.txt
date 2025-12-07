@@ -1,24 +1,15 @@
 Week 4:
 
-Training Phase Summary:
-Processed images 1–6 and extracted region features.
+- Implemented BlocksWorld3DReconstructor class to reconstruct 3D coordinates from 2D images.
+- Built constraint system including:
 
-Circles detected in: image1, image2, image4, image6 (both regions)
-Blocks detected in: image3, image5
+-- Ground constraints (Z = 0)
+-- Contact edge constraints (Z = 0)
+-- Vertical & horizontal edge smoothness constraints
+-- Planarity (smoothness) constraints
 
-Feature ranges observed:
-Area: 301 to 117052
-Aspect Ratio: 0.32 to 8.00
-Compactness: 26.88 to 158.44
-
-Total training regions: 7
-
-Testing Phase Summary:
-All test images (7–10) were successfully analyzed.
-
-Image 7: Predicted Symbol = Circle, Area = 23445, Compactness = 71.42
-Image 8: Predicted Symbol = Circle, Area = 69934, Compactness = 172.77
-Image 9: Predicted Symbol = Circle, Area = 8904, Compactness = 78.49
-Image 10: Predicted Symbol = Circle, Area = 43456, Compactness = 66.97
-
-All test objects were classified as Circle due to compactness dominating the similarity scoring.
+- Solved sparse linear system using LSQR to recover Z coordinates.
+- Recovered full 3D coordinates (X, Y, Z) using parallel projection equations.
+- Visualized 3D reconstructions (surface plots + color-coded depth maps).
+- Processed images 1–9 sequentially with preprocessing + 3D reconstruction pipeline.
+- Verified edge detection and 3D reconstruction for accuracy and completeness.
